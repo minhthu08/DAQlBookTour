@@ -1,0 +1,19 @@
+﻿@model Webdemo.Models.TTour
+@{
+    ViewData["Title"] = "ChiTietTour";
+    Layout = "~/Views/Shared/_LayoutIndex.cshtml";
+}
+
+<h1>Chi tiết Tour</h1>
+
+<div>
+    <h4>Tour</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2"> 
+            @Html.DisplayNameFor(model => model.TenTour)
+        </dt>
+
+    </dl>
+</div>
+
